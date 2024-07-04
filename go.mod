@@ -2,7 +2,10 @@ module postgresApi
 
 go 1.22.0
 
-require github.com/spf13/viper v1.19.0
+require (
+	github.com/go-chi/chi/v5 v5.1.0
+	github.com/spf13/viper v1.19.0
+)
 
 require (
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
